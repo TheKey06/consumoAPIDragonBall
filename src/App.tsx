@@ -1,6 +1,6 @@
 import './index.css'
-import { Header } from "../src/components/header.tsx"
-import { Card } from '../src/components/card.tsx'
+import { Header } from './components/header'
+import { Card } from './components/card'
 
 export const App = () => {
   return (
