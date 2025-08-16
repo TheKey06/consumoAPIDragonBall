@@ -1,10 +1,12 @@
-import './App.css'
+import './index.css'
+import { Header } from "../src/components/header.tsx"
+import { Card } from '../src/components/card.tsx'
 
-export const App=()=> {
-
+export const App = () => {
   return (
-   <div className="bg-blue-500">
-<p>Hola mundo</p>
-   </div>
+    <div className="w-full h-screen bg-gradient-to-r from-blue-300 to-blue-600 flex items-center justify-center">
+      <Header/>
+      <Card />
+    </div>
   )
 }
