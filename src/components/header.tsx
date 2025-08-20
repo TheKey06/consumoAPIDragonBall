@@ -1,5 +1,15 @@
+import { InputSearch } from "./search"  
+
+
 export const Header = () =>{
     return (
-        <div className="bg-yellow-200">hola prueba</div>
+        
+        <div className="flex flex-col items-center justify-center py-0">
+            <img src="/Header.png" alt="logo " className="w-[600px] h-[200px]"/>
+            <InputSearch/>
+        </div>
+
+        
+
     )
 }
