@@ -13,10 +13,10 @@ export const Card = () => {
         <div className="w-12 h-44 relative flex flex-col justify-around items-center ml-6">
           <div className="bg-[#1667EA] w-32 h-6 rounded-md mb-5">
             
-            <p className="text-xl w-full text-center ">Nombre</p>
+            <p className="text-xl w-full text-center ">nombre</p>
           </div>
           <div className=" mb-6 bg-gradient-to-r from-[#9BCDFD] to-[#1476D3] h-9 w-20 rounded-md">
-            <p className="text-xs w-full text-center">Hola mundo</p>
+            <p className="text-xs w-full text-center">hola mundo</p>
           </div>
           <div className=" mb-5 bg-gradient-to-r from-[#9BCDFD] to-[#1476D3] h-9 w-20 rounded-md">
             <p className="text-xs w-full text-center">Hola mundo</p>
