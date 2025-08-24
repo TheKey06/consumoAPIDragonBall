@@ -1,3 +1,4 @@
+import Api from './components/api'
 import './index.css'
 import { Header } from './components/header'
 import { Card } from './components/card'
@@ -7,6 +8,7 @@ export const App = () => {
     <div className="bg-gradient-to-r from-blue-300 to-blue-600 flex flex-col items-center justify-center">
       <Header/>
       <Card />
+      <Api />
     </div>
   )
 }
